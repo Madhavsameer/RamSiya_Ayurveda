@@ -32,6 +32,11 @@
   padding-bottom: 2px;
 }
 
+/* Default to hide hamburger on larger screens */
+.hamburger {
+  display: none;
+}
+
 /* Responsive design: smaller screens */
 @media (max-width: 768px) {
   .nav-links {
@@ -43,6 +48,7 @@
     left: 0;
     width: 100%;
     padding: 10px 0;
+    z-index: 1;
   }
 
   .nav-links li {
@@ -54,22 +60,17 @@
     display: flex;
   }
 
-  /* Hamburger icon */
+  /* Hamburger icon styling */
   .hamburger {
-    display: block;
+    display: flex;
+    flex-direction: column;
     cursor: pointer;
   }
-}
 
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.hamburger div {
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  margin: 4px;
+  .hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px;
+  }
 }
