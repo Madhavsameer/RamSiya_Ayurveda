@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #46c98e; /* A calm green for the ayurvedic theme */
+  background-color: #31a973; /* A calm green for the ayurvedic theme */
   position: relative;
 }
 
@@ -23,7 +23,7 @@
 
 .nav-links a {
   text-decoration: none;
-  color: rgb(234, 228, 228);
+  color: rgb(255, 255, 255);
   font-size: 18px;
 }
 

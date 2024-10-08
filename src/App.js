@@ -6,6 +6,7 @@ import LandingPage from './components/LandingPage';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Blog from './components/Blog'; // We’ll define this page later
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/contact" element={<Contact/>} />
         <Route path="/blog" element={<Blog/>} />
       </Routes>
+      <Footer/>
     </Router>
   );
 };
