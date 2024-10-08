@@ -1,0 +1,97 @@
+/* src/styles/Blog.css */
+.blog {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f0f8ff; /* Light background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .blog p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .blog-card {
+    background: white; /* White background for card */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+  }
+  
+  .blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  }
+  
+  .blog-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px; /* Space between image and text */
+  }
+  
+  .blog-date {
+    color: #888;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  
+  .blog-content {
+    font-size: 1rem;
+    color: #444;
+    margin-top: 15px;
+  }
+  
+  .read-more {
+    background: #46c98e; /* Green background */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .read-more:hover {
+    background: #3cba74; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge button */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .blog {
+      padding: 20px;
+    }
+  
+    .blog h2 {
+      font-size: 2rem; /* Smaller heading on mobile */
+    }
+  
+    .blog-card {
+      padding: 15px; /* Smaller padding on mobile */
+    }
+  
+    .read-more {
+      padding: 10px 15px; /* Smaller button padding */
+    }
+  }
+  
