@@ -23,7 +23,6 @@ const LandingPage = () => {
 
       <Contact/>
 
-      <Footer/>
 
       
     </div>
