@@ -34,6 +34,9 @@ const Navbar = () => {
           <Link to="/contact" onClick={toggleMenu}>Contact Us</Link>
         </li>
         <li>
+          <Link to="/about" onClick={toggleMenu}>About Us</Link>
+        </li>
+        <li>
           <Link to="/blog" onClick={toggleMenu}>Blog</Link>
         </li>
       </ul>
