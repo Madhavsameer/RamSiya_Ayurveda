@@ -1,0 +1,75 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #46c98e; /* A calm green for the ayurvedic theme */
+  position: relative;
+}
+
+#logo {
+  width: 100px;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.nav-links li {
+  margin: 0 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(234, 228, 228);
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  border-bottom: 2px solid white;
+  padding-bottom: 2px;
+}
+
+/* Responsive design: smaller screens */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #46c98e;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .nav-links li {
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  /* Hamburger icon */
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px;
+}
