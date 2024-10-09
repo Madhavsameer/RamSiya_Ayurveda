@@ -4,11 +4,22 @@ const Contact = () => {
   return (
     <div>
       <section id="contact" className="contact-section">
-        <h2>Contact Us</h2>
-        <p>
-          Ready to start your wellness journey? Contact us to schedule a consultation or book a service.
-        </p>
-        <a href="mailto:info@ayurveda.com" className="cta-button">Email Us</a>
+
+        
+
+
+      <div className="formc">
+          <iframe
+            title="Google Maps"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSfbICgjyAPZQdmeXKzurdnl1zZM-vZ5sgqaCz-4wQkTCHQdvw/viewform?embedded=true"
+            width="380px"
+            height="799px"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        
 
         {/* Corrected Google Maps iFrame */}
         <div className="map-container">
