@@ -10,12 +10,12 @@ const Contact = () => {
 
       <div className="formc">
           <iframe
-            title="Google Maps"
+            title="Google Forms"
             src="https://docs.google.com/forms/d/e/1FAIpQLSfbICgjyAPZQdmeXKzurdnl1zZM-vZ5sgqaCz-4wQkTCHQdvw/viewform?embedded=true"
-            width="380px"
-            height="799px"
+            width="100%"
+            height="2300vh"
             style={{ border: 0 }}
-            allowFullScreen=""
+            allowFullScreen="yes"
             loading="lazy"
           ></iframe>
         </div>
